@@ -17,7 +17,7 @@ public class LabelDemo {
         label.setFont(new Font("Arial", Font.BOLD, 14));
         label.setIconTextGap(10);
         label.setBackground(Color.DARK_GRAY);
-        label.setOpaque(true);
+        label.setOpaque(true); // this will actually make background color visible
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
