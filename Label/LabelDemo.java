@@ -1,4 +1,6 @@
 
+import java.awt.Color;
+import java.awt.Font;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -9,6 +11,11 @@ public class LabelDemo {
         JLabel label = new JLabel();
         label.setText("I am Gaurav");
         label.setIcon(image);
+        label.setHorizontalTextPosition(JLabel.CENTER); // set text left, center, right of image icon
+        label.setVerticalTextPosition(JLabel.TOP);
+        label.setForeground(new Color(123, 50, 255));
+        label.setFont(new Font("Arial", Font.BOLD, 14));
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);
@@ -17,5 +24,4 @@ public class LabelDemo {
         frame.setVisible(true);
         frame.add(label);
     }
-
 }
