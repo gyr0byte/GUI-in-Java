@@ -23,10 +23,12 @@ public class LabelDemo {
         label.setOpaque(true); // this will actually make background color visible
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER); //set vertical position icon + text within label
-        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER); // set horizontol positon icon + text within label
+        label.setBounds(0,0,400,300);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(null);
         frame.setResizable(true);
         frame.setSize(900, 720);
         frame.add(label);
