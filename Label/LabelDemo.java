@@ -17,22 +17,23 @@ public class LabelDemo {
         label.setHorizontalTextPosition(JLabel.CENTER); // set text left, center, right of image icon
         label.setVerticalTextPosition(JLabel.TOP);
         label.setForeground(new Color(123, 50, 255));
-        label.setFont(new Font("Arial", Font.BOLD, 14));
+        label.setFont(new Font("Arial", Font.BOLD, 24));
         label.setIconTextGap(10);
         label.setBackground(Color.DARK_GRAY);
         label.setOpaque(true); // this will actually make background color visible
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER); //set vertical position icon + text within label
         label.setHorizontalAlignment(JLabel.CENTER); // set horizontol positon icon + text within label
-        label.setBounds(0,0,400,300);
+       // label.setBounds(100,50,400,300); //sets x,y position within frame as well as dimensions
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(null);
+       // frame.setLayout(null);
         frame.setResizable(true);
-        frame.setSize(900, 720);
+       // frame.setSize(900, 720);
         frame.add(label);
         frame.setVisible(true);
         frame.add(label);
+        frame.pack();
     }
 }
