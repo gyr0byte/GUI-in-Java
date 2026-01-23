@@ -15,6 +15,9 @@ public class LabelDemo {
         label.setVerticalTextPosition(JLabel.TOP);
         label.setForeground(new Color(123, 50, 255));
         label.setFont(new Font("Arial", Font.BOLD, 14));
+        label.setIconTextGap(10);
+        label.setBackground(Color.DARK_GRAY);
+        label.setOpaque(true);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
