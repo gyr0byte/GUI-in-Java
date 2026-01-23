@@ -1,13 +1,16 @@
 
 import java.awt.Color;
 import java.awt.Font;
+import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.border.Border;
 
 public class LabelDemo {
     public static void main(String[] args) {
         ImageIcon image = new ImageIcon("Label/logo.jpg");
+        Border border = BorderFactory.createLineBorder(Color.BLACK, 4);
         JLabel label = new JLabel();
         label.setText("I am Gaurav");
         label.setIcon(image);
@@ -18,6 +21,7 @@ public class LabelDemo {
         label.setIconTextGap(10);
         label.setBackground(Color.DARK_GRAY);
         label.setOpaque(true); // this will actually make background color visible
+        label.setBorder(border);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
