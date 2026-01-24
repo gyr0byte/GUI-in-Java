@@ -1,30 +1,17 @@
+<!-- prettier-ignore -->
 # Java GUI Examples
 
-[![Java](https://img.shields.io/badge/Java-GUI-orange?logo=java)](https://www.oracle.com/java/)
+![Java](https://img.shields.io/badge/Java-GUI-orange?logo=java)
 
-Elegant, minimal, and educational Java Swing examples for learning basic GUI concepts.
-
-**Table of Contents**
-
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-- [Examples](#examples)
-- [Project Structure](#project-structure)
-- [Notes](#notes)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
-This repository contains small, focused Java Swing examples intended for beginners learning how to build simple desktop UIs using `JFrame`, `JLabel`, and related Swing components. Each example is self-contained and easy to compile and run.
+A small collection of focused Java Swing examples — clean, minimal, and ideal for learning basic desktop UI concepts.
 
 ## Quick Start
 
-Prerequisites: JDK installed and `javac`/`java` available on your PATH.
+Requirements: JDK (javac/java) installed.
 
-From the repository root, pick an example folder and run the following commands.
+Run an example from the repository root:
 
-JFrame example (open a basic window):
+JFrame example
 
 ```bash
 cd Jframee
@@ -32,7 +19,7 @@ javac *.java
 java JFrames
 ```
 
-Label demo (image + text label):
+Label demo
 
 ```bash
 cd Label
@@ -40,33 +27,33 @@ javac *.java
 java LabelDemo
 ```
 
-Notes:
+Notes
 
-- Each example expects an image file `logo.jpg` inside its folder (`Jframee/logo.jpg` or `Label/logo.jpg`). If the image is missing, the program still runs but will not show a custom icon.
-- On Windows PowerShell, use the same commands; just run them in PowerShell instead of Bash.
+- Each example looks for `logo.jpg` in its folder (e.g., `Jframee/logo.jpg`). If it's missing the app still runs without the custom icon.
+- Run the `java` command from the same directory as the compiled `.class` files.
 
-## Examples
+## What you'll see
 
-- **JFrame Example** — [JFrames.java](Jframee/JFrames.java): creates an instance of `MyFrame` which demonstrates window title, size, icon, background color, and basic frame properties. The actual frame implementation is in [Jframee/MyFrame.java](Jframee/MyFrame.java).
-- **Label Demo** — [LabelDemo.java](Label/LabelDemo.java): demonstrates `JLabel` with icon, text positioning, fonts, borders, and `JFrame` packing.
+- `Jframee` — a basic `JFrame` window with title, fixed size, icon, and background color.
+- `Label` — a `JLabel` demo showing icon + text, font, border, alignment, and packing.
 
-## Project Structure
+## Project layout
 
-- [Jframee](Jframee): JFrame-centered example
+- [Jframee](Jframee)
   - [JFrames.java](Jframee/JFrames.java)
   - [MyFrame.java](Jframee/MyFrame.java)
-- [Label](Label): JLabel and image/text demo
+- [Label](Label)
   - [LabelDemo.java](Label/LabelDemo.java)
 
-## Notes
+## Tips
 
-- These examples use the default (no) package and are intended for learning; for larger projects prefer proper packages and build tools (Maven/Gradle).
-- If you get a `NoClassDefFoundError` or similar when running `java`, ensure you're running the `java` command from the same folder containing the compiled `.class` files (see Quick Start commands above).
+- For multi-file projects prefer a build tool (Maven/Gradle) and proper Java packages.
+- To add a screenshot: place an image under `docs/` and reference it from the README.
 
-## Contributing
+---
 
-Contributions are welcome. Open an issue or a pull request with small, focused improvements (additional examples, README fixes, or improvements to error handling).
+If you'd like, I can:
 
-## License
-
-This repository is available under the MIT License. See LICENSE for details.
+- add a placeholder screenshot and sample `logo.jpg`,
+- create an `LICENSE` (MIT) file, or
+- commit these changes for you.
