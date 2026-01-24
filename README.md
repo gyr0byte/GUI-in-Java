@@ -49,11 +49,3 @@ Notes
 
 - For multi-file projects prefer a build tool (Maven/Gradle) and proper Java packages.
 - To add a screenshot: place an image under `docs/` and reference it from the README.
-
----
-
-If you'd like, I can:
-
-- add a placeholder screenshot and sample `logo.jpg`,
-- create an `LICENSE` (MIT) file, or
-- commit these changes for you.
