@@ -1,10 +1,16 @@
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class JavaPanel {
     public static void main(String[] args) {
+        ImageIcon icon = new ImageIcon();
+
+        JLabel label = new JLabel();
+        label.setText("Hi");
 
         JPanel greyPanel = new JPanel();
         greyPanel.setBackground(Color.DARK_GRAY);
