@@ -36,6 +36,7 @@ Notes
 
 - `Jframee` — a basic `JFrame` window with title, fixed size, icon, and background color.
 - `Label` — a `JLabel` demo showing icon + text, font, border, alignment, and packing.
+- `Panels` — a simple `JPanel` layout demo showing multiple colored panels and adding components to a panel (uses `Panels/cat.png`).
 
 ## Project layout
 
@@ -44,6 +45,8 @@ Notes
   - [MyFrame.java](Jframee/MyFrame.java)
 - [Label](Label)
   - [LabelDemo.java](Label/LabelDemo.java)
+- [Panels](Panels)
+  - [JavaPanel.java](Panels/JavaPanel.java)
 
 ## Tips
 
