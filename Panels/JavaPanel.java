@@ -14,6 +14,10 @@ public class JavaPanel {
         bluePanel.setBackground(Color.BLUE);
         bluePanel.setBounds(250, 0, 250, 250);
 
+        JPanel greenPanel = new JPanel();
+        greenPanel.setBackground(Color.green);
+        greenPanel.setBounds(0, 250, 500, 250);
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
         frame.setSize(750, 480);
@@ -21,6 +25,6 @@ public class JavaPanel {
         frame.setLayout(null);
         frame.add(greyPanel);
         frame.add(bluePanel);
-
+        frame.add(greenPanel);
     }
 }
