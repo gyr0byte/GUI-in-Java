@@ -12,8 +12,8 @@ public class JavaPanel {
         JLabel label = new JLabel();
         label.setText("Hi");
         label.setIcon(icon);
-        label.setVerticalAlignment(JLabel.TOP);
-        label.setHorizontalAlignment(JLabel.RIGHT);
+        //label.setVerticalAlignment(JLabel.TOP);
+        //label.setHorizontalAlignment(JLabel.RIGHT);
         label.setBounds(100, 100, 150, 150);
 
         JPanel greyPanel = new JPanel();
