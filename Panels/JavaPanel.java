@@ -30,7 +30,7 @@ public class JavaPanel {
         frame.setSize(750, 480);
         frame.setVisible(true);
         frame.setLayout(null);
-        greyPanel.add(label);
+        greenPanel.add(label);
         frame.add(greyPanel);
         frame.add(bluePanel);
         frame.add(greenPanel);
