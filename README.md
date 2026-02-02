@@ -2,8 +2,11 @@
 # 🚀 Java GUI Examples
 
 ![Java](https://img.shields.io/badge/Java-Swing-orange?logo=java)
+![JDK](https://img.shields.io/badge/JDK-8+-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%2FMac%2FLinux-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 A curated collection of **clean, minimal Java Swing examples** perfect for beginners learning desktop GUI development. Dive into `JFrame`, `JLabel`, and `JPanel` with hands-on code!
 
