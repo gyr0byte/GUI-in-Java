@@ -1,5 +1,4 @@
-<!-- prettier-ignore -->
-# 🚀 Java GUI Examples
+# Java GUI Examples
 
 ![Java](https://img.shields.io/badge/Java-Swing-orange?logo=java)
 ![JDK](https://img.shields.io/badge/JDK-8+-blue)
@@ -8,46 +7,23 @@
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-A curated collection of **clean, minimal Java Swing examples** perfect for beginners learning desktop GUI development. Dive into `JFrame`, `JLabel`, and `JPanel` with hands-on code!
+Clean, minimal Java Swing examples for beginners. Covers `JFrame`, `JLabel`, and `JPanel` with small, focused demos.
 
-## 📋 Table of Contents
+## Features
 
-- [🚀 Features](#-features)
-- [📸 Screenshots](#-screenshots)
-- [⚡ Quick Start](#-quick-start)
-- [👀 What You'll See](#-what-youll-see)
-- [📁 Project Layout](#-project-layout)
-- [💡 Tips](#-tips)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- Beginner-friendly and self-contained examples
+- Each demo runs independently
+- Simple structure with comments
 
-## ✨ Features
+## Quick Start
 
-- **Beginner-Friendly**: Simple, focused examples to grasp Swing basics.
-- **Self-Contained**: Each demo runs independently with minimal setup.
-- **Educational**: Comments and structure explain key concepts.
-- **Customizable**: Easily tweak colors, sizes, and layouts.
+Prerequisites:
 
-## 📸 Screenshots
+- JDK 8+ installed
 
-_(Add screenshots here for visual appeal! Place images in `docs/` and link them.)_
+Run a demo from the repository root.
 
-- **JFrame Example**: A purple window with custom icon.
-- **Label Demo**: Text and image label with borders.
-- **Panels Demo**: Multi-colored panels layout.
-
-## ⚡ Quick Start
-
-### Prerequisites
-
-- JDK installed (version 8+ recommended).
-- Basic knowledge of Java.
-
-### Running Examples
-
-From the repository root, navigate to an example folder and run:
-
-#### JFrame Example
+JFrame example:
 
 ```bash
 cd Jframee
@@ -55,7 +31,7 @@ javac *.java
 java JFrames
 ```
 
-#### Label Demo
+Label demo:
 
 ```bash
 cd Label
@@ -63,7 +39,7 @@ javac *.java
 java LabelDemo
 ```
 
-#### Panels Demo
+Panels demo:
 
 ```bash
 cd Panels
@@ -71,18 +47,18 @@ javac *.java
 java JavaPanel
 ```
 
-### Notes
+Notes:
 
-- Examples expect image files like `logo.jpg` or `cat.png` in their folders. If missing, the app runs without icons.
-- Ensure you run `java` from the same directory as the `.class` files.
+- Some examples expect image files like `logo.jpg` or `cat.png` in their folders. If missing, the app runs without icons.
+- Run `java` from the same directory as the compiled `.class` files.
 
-## 👀 What You'll See
+## What You Will See
 
-- **`Jframee`** 🌟: Basic `JFrame` with title, fixed size, custom icon, and background color.
-- **`Label`** 🏷️: `JLabel` showcasing icon + text, fonts, borders, alignment, and packing.
-- **`Panels`** 🎨: `JPanel` layout with multiple colored panels and component addition.
+- `Jframee`: Basic `JFrame` with title, fixed size, custom icon, and background color
+- `Label`: `JLabel` with icon + text, fonts, borders, alignment, and packing
+- `Panels`: `JPanel` layout with multiple colored panels
 
-## 📁 Project Layout
+## Project Layout
 
 ```
 JavaGUI/
@@ -96,25 +72,23 @@ JavaGUI/
 └── README.md
 ```
 
-- **[Jframee](Jframee)**: JFrame basics.
-- **[Label](Label)**: Label components.
-- **[Panels](Panels)**: Panel layouts.
+- [Jframee](Jframee): JFrame basics
+- [Label](Label): Label components
+- [Panels](Panels): Panel layouts
 
-## 💡 Tips
+## Screenshots
 
-- For larger projects, use build tools like Maven or Gradle with proper packages.
-- Add screenshots: Place images in `docs/` and reference them in the README.
-- Experiment: Modify colors, sizes, and add more components!
+Add images in `docs/` and link them here.
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! 🎉
+Contributions are welcome.
 
-- Fork the repo.
-- Create a feature branch.
-- Add your example or improvement.
-- Submit a pull request.
+- Fork the repo
+- Create a feature branch
+- Add your example or improvement
+- Submit a pull request
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License. See [LICENSE](LICENSE).
