@@ -12,6 +12,7 @@ public class MyFramee extends JFrame implements ActionListener{
         button.addActionListener(this);
         button.setText("press me");
         button.setFocusable(false);
+        
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setSize(500, 500);
