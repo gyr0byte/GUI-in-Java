@@ -7,7 +7,7 @@
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-Clean, minimal Java Swing examples for beginners. Covers `JFrame`, `JLabel`, and `JPanel` with small, focused demos.
+Clean, minimal Java Swing examples for beginners. Covers `JFrame`, `JLabel`, `JPanel`, and `JButton` with small, focused demos.
 
 ## Features
 
@@ -47,6 +47,14 @@ javac *.java
 java JavaPanel
 ```
 
+Buttons demo:
+
+```bash
+cd Buttonss
+javac *.java
+java Main
+```
+
 Notes:
 
 - Some examples expect image files like `logo.jpg` or `cat.png` in their folders. If missing, the app runs without icons.
@@ -57,11 +65,15 @@ Notes:
 - `Jframee`: Basic `JFrame` with title, fixed size, custom icon, and background color
 - `Label`: `JLabel` with icon + text, fonts, borders, alignment, and packing
 - `Panels`: `JPanel` layout with multiple colored panels
+- `Buttonss`: `JButton` demo with a custom frame
 
 ## Project Layout
 
 ```
 JavaGUI/
+├── Buttonss/
+│   ├── Main.java
+│   └── MyFramee.java
 ├── Jframee/
 │   ├── JFrames.java
 │   └── MyFrame.java
@@ -75,10 +87,7 @@ JavaGUI/
 - [Jframee](Jframee): JFrame basics
 - [Label](Label): Label components
 - [Panels](Panels): Panel layouts
-
-## Screenshots
-
-Add images in `docs/` and link them here.
+- [Buttonss](Buttonss): Button demo
 
 ## Contributing
 
